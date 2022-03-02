@@ -1,0 +1,19 @@
+.nav__logo {
+  display: flex;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+
+position sticky keeps our element stick to its place when we scroll it also requires position like top right left 
+
+
+2) 
+flex: 1;
+element will take maxium space it wants 
+
+3)
+visibility: hidden;
+
+we used visibility: hidden because display hidden would make element left to it closer or move towards side bar
